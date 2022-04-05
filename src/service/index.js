@@ -9,7 +9,7 @@ export const jwSerch = (value) => {
     return jw.search(value)
 };
 export const jwGetTitle = (value) => {
-    jw.getTitle().then(data => {
-        console.log(data);
-    });
+    console.log('teste',value);
+   return jw.getTitle('movie', value)
+    
 }    
