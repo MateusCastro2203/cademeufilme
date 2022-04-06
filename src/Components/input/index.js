@@ -19,6 +19,7 @@ const Input = () => {
     const GetTitle = async(value) =>{
       var response = await JW.jwGetTitle(value);
       setFilm(response);
+      //Console log da Response
       console.log(response);
     } 
   return (
