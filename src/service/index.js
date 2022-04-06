@@ -1,8 +1,9 @@
-const Justwatch = require('justwatch-api');
+const JustwatchAPI = require('justwatch-api');
 const options = {
     locale:'pt_BR',
 }
-const jw = new Justwatch([options]);
+
+const jw = new JustwatchAPI([options]);
 
 export const jwSerch = (value) => {
     console.log('oi',value);
