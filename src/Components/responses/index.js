@@ -2,7 +2,7 @@ import React from 'react'
 import * as S from './styles'
 const Responses = (data) => {
   var valueReplace = "{profile}"
-  var NewValue = data.data.poster.replace(valueReplace, "");
+  var NewValue = data.data.poster.replace(valueReplace, "");// Remove o {profile} da URL para fazer a chamada das imagens
   console.log('VALOR',data);
   return (
     <S.Container>
